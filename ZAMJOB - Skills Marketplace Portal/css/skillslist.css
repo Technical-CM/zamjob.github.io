@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Style the "See More" buttons */
+.seeMoreButton {
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Style the button on hover */
+.seeMoreButton:hover {
+    background-color: #0056B3;
+}
+
+/* Style the job seekers section */
+#jobSeekers {
+    background-color: #F4F4F4;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the job seekers header */
+#jobSeekers h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Style job seeker categories */
+#jobSeekers h3 {
+    font-size: 24px;
+    color: #FFF;
+    background-color: #007BFF; /* Position background color */
+    width: 100%; /* Full width */
+    margin: 20px 0 10px 0;
+    text-transform: uppercase;
+    padding: 10px 0; /* Add padding for spacing */
+    box-sizing: border-box;
+}
+
+/* Style job seekers list */
+#jobSeekers ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style each job seeker item */
+#jobSeekers li {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+/* Add a subtle hover effect to job seeker items */
+#jobSeekers li:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style job seeker names */
+#jobSeekers h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style job seeker details */
+#jobSeekers p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+/* Style the positions */
+#jobSeekers h3:before {
+    content: "> ";
+    color: #FFF; /* Position text color */
+    font-size: 24px;
+    margin-right: 5px;
+}

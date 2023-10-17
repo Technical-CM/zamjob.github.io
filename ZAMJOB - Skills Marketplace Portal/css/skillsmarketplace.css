@@ -1,0 +1,103 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Hero section styles */
+.hero {
+  background: url('background-image.jpg') center/cover no-repeat;
+  color: #000;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.hero a {
+  background: #F58634;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.hero a:hover {
+  background: #E2750E;
+}
+
+/* Services section styles */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service {
+  width: 30%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+}
+
+.service img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #555;
+}
